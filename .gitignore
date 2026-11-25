@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Experiment outputs
+runs/
+*.pt
+*.pth
+*.hdf5
+*.h5
+*.npy
+*.png
+*.pdf
+quick_report.md
+report.md
+full_run.log
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local helper (contains machine-specific proxy settings)
+push_to_github.sh
